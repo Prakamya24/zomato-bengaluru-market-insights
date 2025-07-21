@@ -32,6 +32,44 @@ This project analyzes over 50,000 restaurants in Bengaluru using Zomato's public
 ├── requirements.txt         # Project dependencies
 └── .gitignore               # Git ignore rules
 ```
+---
+
+## 📊 Key Analysis Performed
+
+- Restaurant type distribution
+- Online ordering and table booking trends
+- Location-based restaurant density and ratings
+- Cuisines served vs. rating trends
+- Price vs. rating scatter analysis
+- Clustering restaurants by ratings and cost
+
+---
+
+The raw dataset used in this project is publicly available on Kaggle:
+
+🔗 [Zomato Bengaluru Dataset — Kaggle](https://www.kaggle.com/datasets/rajeshrampure/zomato-dataset)
+
+After downloading, place the file at:
+
+```
+/data/raw/zomato.csv
+```
+
+The cleaned and clustered datasets (`zomato_cleaned.csv` and `zomato_clustered.csv`) will be generated automatically when you run the provided notebooks.
+
+
+---
+
+## ⚙️ Tech Stack
+
+- **Language:** Python 3.x
+- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn
+- **Notebook:** Jupyter
+- **Git & GitHub**
+
+
+---
+
 
 ## How to Run
 1. Clone the repository to your local machine.
@@ -44,6 +82,7 @@ This project analyzes over 50,000 restaurants in Bengaluru using Zomato's public
    - `02_exploratory_analysis.ipynb`
    - `03_customer_segmentation.ipynb`
 
+---
 ## Dependencies
 - pandas
 - numpy
@@ -54,10 +93,39 @@ This project analyzes over 50,000 restaurants in Bengaluru using Zomato's public
 
 (See `requirements.txt` for exact versions.)
 
+---
+
+## 📈 Key Analysis Performed
+
+- Cuisine and location-based segmentation
+- Rating vs. cost visualization
+- Online delivery and table booking patterns
+- K-Means clustering for customer segmentation
+
+---
+
+## 📌 Insights Extracted
+
+- North Indian, Chinese, and South Indian are the most popular cuisines.
+- Restaurants in Indiranagar and BTM have the highest concentration.
+- Higher-rated restaurants tend to fall in a specific pricing band.
+- Certain areas show higher demand for delivery and table booking.
+
+---
+
+## 🧠 Future Scope
+
+- Deploy a dashboard using Streamlit or Tableau
+- Add time-series analysis (if timestamp data is available)
+- Include sentiment analysis on reviews
+
+---
+
 ## Author
 **Prakamya Verma**  
 prakamya0124@gmail.com
 [Linkdin](https://www.linkedin.com/in/prakamya-verma/)
+
 ---
 
 *This project is part of a data analysis portfolio showcasing advanced data cleaning, visualization, and clustering techniques applied to real-world restaurant data.*
